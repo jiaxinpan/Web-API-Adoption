@@ -1,0 +1,69 @@
+﻿#title {
+    display: flex;
+    margin-top: 20px;
+    font-size: 50px;
+    color: cadetblue;
+    font-weight: bold;
+}
+
+    #title:before, #title:after {
+        content: "";
+        flex: 1 1;
+        border-bottom: 2px solid cadetblue;
+        margin: auto;
+    }
+
+    #title:before {
+        margin-left: 200px;
+        margin-right: 50px;
+    }
+
+    #title:after {
+        margin-right: 200px;
+        margin-left: 50px;
+    }
+
+@media screen and (max-width:960px) {
+    #title {
+        font-size: 35px;
+    }
+
+        #title:before {
+            margin-left: 50px;
+            margin-right: 20px;
+        }
+
+        #title:after {
+            margin-right: 50px;
+            margin-left: 20px;
+        }
+}
+
+nav {
+    font-weight: bold;
+    font-size: large;
+}
+
+.carousel .carousel-item {
+    height: 350px;
+}
+
+    .carousel .carousel-item img {
+        min-height: 350px;
+        max-height: 400px;
+        object-fit: cover;
+    }
+
+.container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+    .container h4 {
+        color: cadetblue;
+        font-weight: bold;
+    }
+
+    .container h5 {
+        font-weight: bold;
+    }
