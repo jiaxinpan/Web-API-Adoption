@@ -4,7 +4,11 @@
 2.運用到Grid System、NavBar、DropDown、Carousel、Card、Modal、Alert等Boostrap元件，做出響應式效果。  
 
 <img src="./img/demo1.png" width="50%" />  
+  
 <img src="./img/demo2.png" width="50%" />  
+  
 <img src="./img/demo3.png" width="50%" />  
+  
 <img src="./img/demo4.png" width="50%" />  
+  
 <img src="./img/demo5.png" width="50%" />  
